@@ -14,7 +14,7 @@ $ apt-get install -y docker.io kubeadm
 ## STEP 2
 
 ```shell
-$ git clone https://git quick-k8s
+$ git clone https://github.com/ConserveLee/quick-kubernetes-deploy.git quick-k8s
 $ cd quick-k8s/kubernetes
 $ vim dashboard.yaml
 # change <your ip> and <your hostname> Correctly
