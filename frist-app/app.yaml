@@ -1,0 +1,23 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: frist-app
+spec:
+  containers:
+  - image: nginx
+    name: frist-app
+    ports:
+    - containerPort: 80
+      protocol: TCP
+    volumeMounts:
+    - name: www-root
+      mountPath: /var/www
+    - name: nginx-conf
+      mountPath: /etc/nginx/conf.d
+  volumes:
+  - name: www-root
+    persistentVolumeClaim:
+     claimName: www-root-c
+  - name: nginx-conf
+    persistentVolumeClaim:
+     claimName: nginx-conf-c
