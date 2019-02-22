@@ -1,4 +1,4 @@
-# QUICKSTART
+# QUICK START
 
 ## STEP 1 
 
