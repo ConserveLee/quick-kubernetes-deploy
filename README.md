@@ -66,4 +66,4 @@ $ kubectl -n kube-system describe secret $(kubectl -n kube-system get secret | g
 
 - ### [blog](http://http://www.lizhongyuan.net)
 
-- ### 如果对你有帮助，请star和fork
+- ### If this helps you, please star or fork
